@@ -1,0 +1,47 @@
+.orange{
+    height: 13vh;
+    background-color: #ff6900;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+}
+img{
+    width: 50px;
+}
+.quest > a{
+    text-decoration: none;
+    color: #d15700;
+    border: 1px solid #fff0e6;
+    background-color: #fff0e6;
+    border-radius: 20px;
+    padding: 8px 20px;
+} 
+.black{
+    height: 70vh;
+    background-color: rgb(24, 24, 24);
+}
+.info{
+    padding-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 0.6;
+}
+#call{
+    color: #ffffff;
+    opacity: 0.6;
+}
+#callLogo{
+    width: 20px;
+    row-gap: 10px;
+}

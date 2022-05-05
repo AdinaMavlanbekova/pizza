@@ -1,0 +1,10 @@
+.allPizza{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+h1{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}

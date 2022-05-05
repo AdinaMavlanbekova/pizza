@@ -1,0 +1,17 @@
+
+.card > img{
+    width: 100px;
+}
+.card{
+    border-radius: 20px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1); 
+    height: 130px;
+    display: flex;
+    align-items: center;
+    width: 210px;
+    margin: 20px;
+}
+.card > h3{
+    display: flex;
+    align-items: center;
+}

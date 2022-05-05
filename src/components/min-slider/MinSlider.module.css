@@ -1,0 +1,21 @@
+.sliderBlock{
+    display: flex;
+    align-items: center;
+}
+h2{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+.halal{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    font-family: Dodo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+#opacity{
+    opacity: 0.6;
+}

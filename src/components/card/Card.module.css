@@ -1,0 +1,28 @@
+.border{
+    width: 205px;
+    height: 255px;
+    border: 2px solid rgb(255, 102, 0);
+    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.card > img{
+    border-radius: 20px;
+    width: 200px;
+    height: 250px;
+    position: relative;
+    padding: 8px;
+}
+.card > h3{
+    position: absolute;
+   margin-top: 150px;
+   margin-left: 15px;
+   color: white;
+}
