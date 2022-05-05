@@ -1,5 +1,6 @@
 import React from 'react';
 import { useDispatch } from "react-redux";
+import Api from '../../api/Api.js';
 import { ACsetNewPizza } from "../../redux/actionCreators.js";
 import css from './PizzaCard.module.css';
 
@@ -10,6 +11,13 @@ const dispatch = useDispatch();
 const onBasket = () => {
     dispatch( ACsetNewPizza ({name, info, file, id, ...props}) )
 }  
+
+const onDelete = () => {
+Api.deletePizza(id)
+.then(() => {
+    window.location.reload()
+})
+}
 
     return (
         <div>
@@ -23,7 +31,7 @@ const onBasket = () => {
                     <span>{props.price} сом</span>
                     {
                         isAdmin
-                        ? <button onClick={onBasket}>Изменить</button>
+                        ? <button onClick={onDelete}>удалить</button>
                         :  <button onClick={onBasket}>Выбрать</button>
                     }
                 </div>
